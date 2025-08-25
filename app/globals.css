@@ -3,11 +3,24 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* 🎨 Paleta personalizada */
+  --color-citrine: #FBF3E4;
+  --color-blue-zodiac: #142C4B;
+  --color-spicy-pink: #7C6C6C;
+  --color-gothic: #6C8C9C;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* 🎨 Paleta mapeada para o Tailwind */
+  --color-citrine: var(--color-citrine);
+  --color-blue-zodiac: var(--color-blue-zodiac);
+  --color-spicy-pink: var(--color-spicy-pink);
+  --color-gothic: var(--color-gothic);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
